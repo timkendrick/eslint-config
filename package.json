@@ -1,7 +1,7 @@
 {
   "name": "@timkendrick/eslint-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "ESLint configuration for JavaScript projects",
   "main": "index.js",
   "scripts": {
     "prepush": "npm test",
