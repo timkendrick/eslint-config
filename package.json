@@ -1,0 +1,36 @@
+{
+  "name": "@timkendrick/eslint-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepush": "npm test",
+    "test": "eslint lib"
+  },
+  "files": [
+    "lib",
+    "index.js",
+    "react.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timkendrick/eslint-config.git"
+  },
+  "author": "Tim Kendrick <timkendrick@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timkendrick/eslint-config/issues"
+  },
+  "homepage": "https://github.com/timkendrick/eslint-config",
+  "dependencies": {
+    "eslint-config-airbnb": "16.0.0",
+    "eslint-config-airbnb-base": "12.0.2",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "husky": "0.14.3"
+  }
+}

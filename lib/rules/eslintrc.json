@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "consistent-return": "off",
+    "dot-notation": "off",
+    "no-console": "error",
+    "no-use-before-define": ["error", "nofunc"],
+    "no-unused-vars": ["error", {
+      "vars": "all",
+      "args": "none"
+    }]
+  }
+}
