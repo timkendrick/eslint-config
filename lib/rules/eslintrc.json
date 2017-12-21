@@ -21,6 +21,7 @@
     "object-curly-newline": ["error", {
       "consistent": true
     }],
-    "prefer-destructuring": "off"
+    "prefer-destructuring": "off",
+    "quote-props": "off"
   }
 }
