@@ -36,6 +36,16 @@ Add the following to your project's `.eslintrc.json`:
 }
 ```
 
+### ES5 projects
+
+Add the following to your project's `.eslintrc.json`:
+
+```json
+{
+  "extends": "@timkendrick/eslint-config/legacy"
+}
+```
+
 ## Rules
 
 Custom rule settings are specified in [`lib/rules/eslintrc.json`](./lib/rules/eslintrc.json)
