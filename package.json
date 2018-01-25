@@ -10,6 +10,7 @@
   "files": [
     "lib",
     "index.js",
+    "legacy.js",
     "react.js"
   ],
   "repository": {
